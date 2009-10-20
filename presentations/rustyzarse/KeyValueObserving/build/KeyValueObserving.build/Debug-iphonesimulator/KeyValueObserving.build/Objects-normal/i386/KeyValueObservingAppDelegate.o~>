@@ -1,0 +1,6 @@
+/Users/rustyzarse/dev/xcode projects/atlanta-iphone/presentations/rustyzarse/KeyValueObserving/Classes/KeyValueObservingAppDelegate.m: In function '-[KeyValueObservingAppDelegate applicationDidFinishLaunching:]':
+/Users/rustyzarse/dev/xcode projects/atlanta-iphone/presentations/rustyzarse/KeyValueObserving/Classes/KeyValueObservingAppDelegate.m:41: error: 'squareView' undeclared (first use in this function)
+/Users/rustyzarse/dev/xcode projects/atlanta-iphone/presentations/rustyzarse/KeyValueObserving/Classes/KeyValueObservingAppDelegate.m:41: error: (Each undeclared identifier is reported only once
+/Users/rustyzarse/dev/xcode projects/atlanta-iphone/presentations/rustyzarse/KeyValueObserving/Classes/KeyValueObservingAppDelegate.m:41: error: for each function it appears in.)
+/Users/rustyzarse/dev/xcode projects/atlanta-iphone/presentations/rustyzarse/KeyValueObserving/Classes/KeyValueObservingAppDelegate.m: In function '-[KeyValueObservingAppDelegate observeValueForKeyPath:ofObject:change:context:]':
+/Users/rustyzarse/dev/xcode projects/atlanta-iphone/presentations/rustyzarse/KeyValueObserving/Classes/KeyValueObservingAppDelegate.m:79: error: 'squareView' undeclared (first use in this function)
