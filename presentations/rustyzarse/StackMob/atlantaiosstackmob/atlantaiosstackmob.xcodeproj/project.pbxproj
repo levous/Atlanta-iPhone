@@ -7,6 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A991A93E14723D4F00777841 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A93D14723D4F00777841 /* UserService.m */; };
+		A991A93F14723D4F00777841 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A93D14723D4F00777841 /* UserService.m */; };
+		A991A94214723EB100777841 /* LevousStackMobService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A94114723EB100777841 /* LevousStackMobService.m */; };
+		A991A94314723EB100777841 /* LevousStackMobService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A94114723EB100777841 /* LevousStackMobService.m */; };
+		A991A94A147245D600777841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CB147225D600E0EC71 /* UIKit.framework */; };
+		A991A94B147245D600777841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CD147225D700E0EC71 /* Foundation.framework */; };
+		A991A94C147245D600777841 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CF147225D700E0EC71 /* CoreGraphics.framework */; };
+		A991A952147245D600777841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A991A950147245D600777841 /* InfoPlist.strings */; };
+		A991A954147245D600777841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A953147245D600777841 /* main.m */; };
+		A991A95D1472473700777841 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A991A95C1472473700777841 /* GHUnitIOS.framework */; };
+		A991A9611472488400777841 /* UserServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A9601472488400777841 /* UserServiceTests.m */; };
+		A991A96214724B1700777841 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A93D14723D4F00777841 /* UserService.m */; };
+		A991A96314724B1700777841 /* LevousStackMobService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A94114723EB100777841 /* LevousStackMobService.m */; };
+		A991A96414724B1700777841 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0650D14723A4B00DF2427 /* JSONKit.m */; };
+		A991A96514724B1700777841 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651514723A4B00DF2427 /* NSMutableURLRequest+Parameters.m */; };
+		A991A96614724B1700777841 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651714723A4B00DF2427 /* NSString+URLEncoding.m */; };
+		A991A96714724B1700777841 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651914723A4B00DF2427 /* NSURL+Base.m */; };
+		A991A96814724B1700777841 /* OAAsynchronousDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651B14723A4B00DF2427 /* OAAsynchronousDataFetcher.m */; };
+		A991A96914724B1700777841 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651D14723A4B00DF2427 /* OAConsumer.m */; };
+		A991A96A14724B1700777841 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651F14723A4B00DF2427 /* OADataFetcher.m */; };
+		A991A96B14724B1700777841 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652114723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.m */; };
+		A991A96C14724B1700777841 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652314723A4B00DF2427 /* OAMutableURLRequest.m */; };
+		A991A96D14724B1700777841 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652514723A4B00DF2427 /* OAPlaintextSignatureProvider.m */; };
+		A991A96E14724B1700777841 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652714723A4B00DF2427 /* OARequestParameter.m */; };
+		A991A96F14724B1700777841 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652914723A4B00DF2427 /* OAServiceTicket.m */; };
+		A991A97014724B1700777841 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652C14723A4B00DF2427 /* OAToken.m */; };
+		A991A97114724B1700777841 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653014723A4B00DF2427 /* Reachability.m */; };
+		A991A97214724B1700777841 /* StackMob.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653214723A4B00DF2427 /* StackMob.m */; };
+		A991A97314724B1700777841 /* StackMobAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653414723A4B00DF2427 /* StackMobAdditions.m */; };
+		A991A97414724B1700777841 /* StackMobClientData.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653614723A4B00DF2427 /* StackMobClientData.m */; };
+		A991A97514724B1700777841 /* StackMobHerokuRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653914723A4B00DF2427 /* StackMobHerokuRequest.m */; };
+		A991A97614724B1700777841 /* StackMobPushRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653B14723A4B00DF2427 /* StackMobPushRequest.m */; };
+		A991A97714724B1700777841 /* StackMobQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653D14723A4B00DF2427 /* StackMobQuery.m */; };
+		A991A97814724B1700777841 /* StackMobRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653F14723A4B00DF2427 /* StackMobRequest.m */; };
+		A991A97914724B1700777841 /* StackMobSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654114723A4B00DF2427 /* StackMobSession.m */; };
+		A991A97A14724B1700777841 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654514723A4B00DF2427 /* NSData+Base64.m */; };
+		A991A97B14724B1700777841 /* NSData+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654714723A4B00DF2427 /* NSData+JSON.m */; };
+		A991A97C14724B4600777841 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E065001472399000DF2427 /* CFNetwork.framework */; };
+		A991A97D14724B4C00777841 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54D1147225D700E0EC71 /* CoreData.framework */; };
+		A991A97E14724B4C00777841 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54F4147225D700E0EC71 /* SenTestingKit.framework */; };
+		A991A97F14724B4C00777841 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E065031472399700DF2427 /* SystemConfiguration.framework */; };
+		A991A98014724C1100777841 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651214723A4B00DF2427 /* Base64Transcoder.c */; };
+		A9E06505147239E700DF2427 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E065001472399000DF2427 /* CFNetwork.framework */; };
+		A9E06506147239E800DF2427 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E065001472399000DF2427 /* CFNetwork.framework */; };
+		A9E06507147239EE00DF2427 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E065031472399700DF2427 /* SystemConfiguration.framework */; };
+		A9E06508147239EE00DF2427 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E065031472399700DF2427 /* SystemConfiguration.framework */; };
+		A9E0654814723A4B00DF2427 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0650D14723A4B00DF2427 /* JSONKit.m */; };
+		A9E0654914723A4B00DF2427 /* YAJLIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E0650F14723A4B00DF2427 /* YAJLIOS.framework */; };
+		A9E0654A14723A4B00DF2427 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651214723A4B00DF2427 /* Base64Transcoder.c */; };
+		A9E0654B14723A4B00DF2427 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651514723A4B00DF2427 /* NSMutableURLRequest+Parameters.m */; };
+		A9E0654C14723A4B00DF2427 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651714723A4B00DF2427 /* NSString+URLEncoding.m */; };
+		A9E0654D14723A4B00DF2427 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651914723A4B00DF2427 /* NSURL+Base.m */; };
+		A9E0654E14723A4B00DF2427 /* OAAsynchronousDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651B14723A4B00DF2427 /* OAAsynchronousDataFetcher.m */; };
+		A9E0654F14723A4B00DF2427 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651D14723A4B00DF2427 /* OAConsumer.m */; };
+		A9E0655014723A4B00DF2427 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651F14723A4B00DF2427 /* OADataFetcher.m */; };
+		A9E0655114723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652114723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.m */; };
+		A9E0655214723A4B00DF2427 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652314723A4B00DF2427 /* OAMutableURLRequest.m */; };
+		A9E0655314723A4B00DF2427 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652514723A4B00DF2427 /* OAPlaintextSignatureProvider.m */; };
+		A9E0655414723A4B00DF2427 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652714723A4B00DF2427 /* OARequestParameter.m */; };
+		A9E0655514723A4B00DF2427 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652914723A4B00DF2427 /* OAServiceTicket.m */; };
+		A9E0655614723A4B00DF2427 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652C14723A4B00DF2427 /* OAToken.m */; };
+		A9E0655714723A4B00DF2427 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653014723A4B00DF2427 /* Reachability.m */; };
+		A9E0655814723A4B00DF2427 /* StackMob.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653214723A4B00DF2427 /* StackMob.m */; };
+		A9E0655914723A4B00DF2427 /* StackMobAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653414723A4B00DF2427 /* StackMobAdditions.m */; };
+		A9E0655A14723A4B00DF2427 /* StackMobClientData.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653614723A4B00DF2427 /* StackMobClientData.m */; };
+		A9E0655B14723A4B00DF2427 /* StackMobHerokuRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653914723A4B00DF2427 /* StackMobHerokuRequest.m */; };
+		A9E0655C14723A4B00DF2427 /* StackMobPushRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653B14723A4B00DF2427 /* StackMobPushRequest.m */; };
+		A9E0655D14723A4B00DF2427 /* StackMobQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653D14723A4B00DF2427 /* StackMobQuery.m */; };
+		A9E0655E14723A4B00DF2427 /* StackMobRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653F14723A4B00DF2427 /* StackMobRequest.m */; };
+		A9E0655F14723A4B00DF2427 /* StackMobSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654114723A4B00DF2427 /* StackMobSession.m */; };
+		A9E0656014723A4B00DF2427 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654514723A4B00DF2427 /* NSData+Base64.m */; };
+		A9E0656114723A4B00DF2427 /* NSData+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654714723A4B00DF2427 /* NSData+JSON.m */; };
+		A9E0656314723C1700DF2427 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0650D14723A4B00DF2427 /* JSONKit.m */; };
+		A9E0656414723C1700DF2427 /* StackMob.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653214723A4B00DF2427 /* StackMob.m */; };
+		A9E0656514723C1700DF2427 /* StackMobAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653414723A4B00DF2427 /* StackMobAdditions.m */; };
+		A9E0656614723C1700DF2427 /* StackMobClientData.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653614723A4B00DF2427 /* StackMobClientData.m */; };
+		A9E0656714723C1700DF2427 /* StackMobHerokuRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653914723A4B00DF2427 /* StackMobHerokuRequest.m */; };
+		A9E0656814723C1700DF2427 /* StackMobPushRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653B14723A4B00DF2427 /* StackMobPushRequest.m */; };
+		A9E0656914723C1700DF2427 /* StackMobQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653D14723A4B00DF2427 /* StackMobQuery.m */; };
+		A9E0656A14723C1700DF2427 /* StackMobRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653F14723A4B00DF2427 /* StackMobRequest.m */; };
+		A9E0656B14723C1700DF2427 /* StackMobSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654114723A4B00DF2427 /* StackMobSession.m */; };
+		A9E0656C14723C1700DF2427 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654514723A4B00DF2427 /* NSData+Base64.m */; };
+		A9E0656D14723C1700DF2427 /* NSData+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0654714723A4B00DF2427 /* NSData+JSON.m */; };
+		A9E0656E14723C2000DF2427 /* YAJLIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E0650F14723A4B00DF2427 /* YAJLIOS.framework */; };
+		A9E0656F14723C4100DF2427 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651514723A4B00DF2427 /* NSMutableURLRequest+Parameters.m */; };
+		A9E0657014723C4100DF2427 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651714723A4B00DF2427 /* NSString+URLEncoding.m */; };
+		A9E0657114723C4100DF2427 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651914723A4B00DF2427 /* NSURL+Base.m */; };
+		A9E0657214723C4100DF2427 /* OAAsynchronousDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651B14723A4B00DF2427 /* OAAsynchronousDataFetcher.m */; };
+		A9E0657314723C4100DF2427 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651D14723A4B00DF2427 /* OAConsumer.m */; };
+		A9E0657414723C4100DF2427 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0651F14723A4B00DF2427 /* OADataFetcher.m */; };
+		A9E0657514723C4100DF2427 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652114723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.m */; };
+		A9E0657614723C4100DF2427 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652314723A4B00DF2427 /* OAMutableURLRequest.m */; };
+		A9E0657714723C4100DF2427 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652514723A4B00DF2427 /* OAPlaintextSignatureProvider.m */; };
+		A9E0657814723C4100DF2427 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652714723A4B00DF2427 /* OARequestParameter.m */; };
+		A9E0657914723C4100DF2427 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652914723A4B00DF2427 /* OAServiceTicket.m */; };
+		A9E0657A14723C4100DF2427 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0652C14723A4B00DF2427 /* OAToken.m */; };
+		A9E0657B14723C4100DF2427 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0653014723A4B00DF2427 /* Reachability.m */; };
 		A9EA54CC147225D700E0EC71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CB147225D600E0EC71 /* UIKit.framework */; };
 		A9EA54CE147225D700E0EC71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CD147225D700E0EC71 /* Foundation.framework */; };
 		A9EA54D0147225D700E0EC71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CF147225D700E0EC71 /* CoreGraphics.framework */; };
@@ -38,6 +135,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A991A93C14723D4F00777841 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		A991A93D14723D4F00777841 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		A991A94014723EB100777841 /* LevousStackMobService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevousStackMobService.h; sourceTree = "<group>"; };
+		A991A94114723EB100777841 /* LevousStackMobService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevousStackMobService.m; sourceTree = "<group>"; };
+		A991A948147245D600777841 /* GHUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A991A94F147245D600777841 /* GHUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTests-Info.plist"; sourceTree = "<group>"; };
+		A991A951147245D600777841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A991A953147245D600777841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A991A955147245D600777841 /* GHUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		A991A95C1472473700777841 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = Frameworks/GHUnitIOS.framework; sourceTree = "<group>"; };
+		A991A95F1472488400777841 /* UserServiceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserServiceTests.h; sourceTree = "<group>"; };
+		A991A9601472488400777841 /* UserServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserServiceTests.m; sourceTree = "<group>"; };
+		A9E065001472399000DF2427 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A9E065031472399700DF2427 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A9E0650C14723A4B00DF2427 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		A9E0650D14723A4B00DF2427 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		A9E0650F14723A4B00DF2427 /* YAJLIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAJLIOS.framework; sourceTree = "<group>"; };
+		A9E0651214723A4B00DF2427 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		A9E0651314723A4B00DF2427 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		A9E0651414723A4B00DF2427 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		A9E0651514723A4B00DF2427 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		A9E0651614723A4B00DF2427 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		A9E0651714723A4B00DF2427 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		A9E0651814723A4B00DF2427 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		A9E0651914723A4B00DF2427 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		A9E0651A14723A4B00DF2427 /* OAAsynchronousDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAsynchronousDataFetcher.h; sourceTree = "<group>"; };
+		A9E0651B14723A4B00DF2427 /* OAAsynchronousDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAsynchronousDataFetcher.m; sourceTree = "<group>"; };
+		A9E0651C14723A4B00DF2427 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		A9E0651D14723A4B00DF2427 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		A9E0651E14723A4B00DF2427 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		A9E0651F14723A4B00DF2427 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		A9E0652014723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		A9E0652114723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		A9E0652214723A4B00DF2427 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		A9E0652314723A4B00DF2427 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		A9E0652414723A4B00DF2427 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		A9E0652514723A4B00DF2427 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		A9E0652614723A4B00DF2427 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		A9E0652714723A4B00DF2427 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		A9E0652814723A4B00DF2427 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		A9E0652914723A4B00DF2427 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		A9E0652A14723A4B00DF2427 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		A9E0652B14723A4B00DF2427 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		A9E0652C14723A4B00DF2427 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		A9E0652D14723A4B00DF2427 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		A9E0652F14723A4B00DF2427 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A9E0653014723A4B00DF2427 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A9E0653114723A4B00DF2427 /* StackMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMob.h; sourceTree = "<group>"; };
+		A9E0653214723A4B00DF2427 /* StackMob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMob.m; sourceTree = "<group>"; };
+		A9E0653314723A4B00DF2427 /* StackMobAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobAdditions.h; sourceTree = "<group>"; };
+		A9E0653414723A4B00DF2427 /* StackMobAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMobAdditions.m; sourceTree = "<group>"; };
+		A9E0653514723A4B00DF2427 /* StackMobClientData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobClientData.h; sourceTree = "<group>"; };
+		A9E0653614723A4B00DF2427 /* StackMobClientData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMobClientData.m; sourceTree = "<group>"; };
+		A9E0653814723A4B00DF2427 /* StackMobHerokuRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobHerokuRequest.h; sourceTree = "<group>"; };
+		A9E0653914723A4B00DF2427 /* StackMobHerokuRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMobHerokuRequest.m; sourceTree = "<group>"; };
+		A9E0653A14723A4B00DF2427 /* StackMobPushRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobPushRequest.h; sourceTree = "<group>"; };
+		A9E0653B14723A4B00DF2427 /* StackMobPushRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMobPushRequest.m; sourceTree = "<group>"; };
+		A9E0653C14723A4B00DF2427 /* StackMobQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobQuery.h; sourceTree = "<group>"; };
+		A9E0653D14723A4B00DF2427 /* StackMobQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMobQuery.m; sourceTree = "<group>"; };
+		A9E0653E14723A4B00DF2427 /* StackMobRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobRequest.h; sourceTree = "<group>"; };
+		A9E0653F14723A4B00DF2427 /* StackMobRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMobRequest.m; sourceTree = "<group>"; };
+		A9E0654014723A4B00DF2427 /* StackMobSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobSession.h; sourceTree = "<group>"; };
+		A9E0654114723A4B00DF2427 /* StackMobSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMobSession.m; sourceTree = "<group>"; };
+		A9E0654214723A4B00DF2427 /* StackMobVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobVersion.h; sourceTree = "<group>"; };
+		A9E0654414723A4B00DF2427 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A9E0654514723A4B00DF2427 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A9E0654614723A4B00DF2427 /* NSData+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSON.h"; sourceTree = "<group>"; };
+		A9E0654714723A4B00DF2427 /* NSData+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSON.m"; sourceTree = "<group>"; };
+		A9E0656214723AD400DF2427 /* StackMobConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobConfiguration.h; sourceTree = "<group>"; };
 		A9EA54C7147225D600E0EC71 /* AtlantaIOSStackMob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlantaIOSStackMob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EA54CB147225D600E0EC71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A9EA54CD147225D700E0EC71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +231,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A991A945147245D600777841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A991A94A147245D600777841 /* UIKit.framework in Frameworks */,
+				A991A94B147245D600777841 /* Foundation.framework in Frameworks */,
+				A991A94C147245D600777841 /* CoreGraphics.framework in Frameworks */,
+				A991A95D1472473700777841 /* GHUnitIOS.framework in Frameworks */,
+				A991A97C14724B4600777841 /* CFNetwork.framework in Frameworks */,
+				A991A97D14724B4C00777841 /* CoreData.framework in Frameworks */,
+				A991A97E14724B4C00777841 /* SenTestingKit.framework in Frameworks */,
+				A991A97F14724B4C00777841 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9EA54C4147225D600E0EC71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +254,9 @@
 				A9EA54CE147225D700E0EC71 /* Foundation.framework in Frameworks */,
 				A9EA54D0147225D700E0EC71 /* CoreGraphics.framework in Frameworks */,
 				A9EA54D2147225D700E0EC71 /* CoreData.framework in Frameworks */,
+				A9E06505147239E700DF2427 /* CFNetwork.framework in Frameworks */,
+				A9E06507147239EE00DF2427 /* SystemConfiguration.framework in Frameworks */,
+				A9E0654914723A4B00DF2427 /* YAJLIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,17 +268,179 @@
 				A9EA54F6147225D700E0EC71 /* UIKit.framework in Frameworks */,
 				A9EA54F7147225D700E0EC71 /* Foundation.framework in Frameworks */,
 				A9EA54F8147225D700E0EC71 /* CoreData.framework in Frameworks */,
+				A9E06506147239E800DF2427 /* CFNetwork.framework in Frameworks */,
+				A9E06508147239EE00DF2427 /* SystemConfiguration.framework in Frameworks */,
+				A9E0656E14723C2000DF2427 /* YAJLIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A991A93614723CFC00777841 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				A991A93C14723D4F00777841 /* UserService.h */,
+				A991A93D14723D4F00777841 /* UserService.m */,
+				A991A94014723EB100777841 /* LevousStackMobService.h */,
+				A991A94114723EB100777841 /* LevousStackMobService.m */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		A991A94D147245D600777841 /* GHUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A991A95E1472488400777841 /* WebServices */,
+				A991A94E147245D600777841 /* Supporting Files */,
+			);
+			path = GHUnitTests;
+			sourceTree = "<group>";
+		};
+		A991A94E147245D600777841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A991A94F147245D600777841 /* GHUnitTests-Info.plist */,
+				A991A950147245D600777841 /* InfoPlist.strings */,
+				A991A953147245D600777841 /* main.m */,
+				A991A955147245D600777841 /* GHUnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A991A95E1472488400777841 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				A991A95F1472488400777841 /* UserServiceTests.h */,
+				A991A9601472488400777841 /* UserServiceTests.m */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		A9E0650914723A4B00DF2427 /* StackMob */ = {
+			isa = PBXGroup;
+			children = (
+				A9E0650A14723A4B00DF2427 /* External */,
+				A9E0653114723A4B00DF2427 /* StackMob.h */,
+				A9E0653214723A4B00DF2427 /* StackMob.m */,
+				A9E0653314723A4B00DF2427 /* StackMobAdditions.h */,
+				A9E0653414723A4B00DF2427 /* StackMobAdditions.m */,
+				A9E0653514723A4B00DF2427 /* StackMobClientData.h */,
+				A9E0653614723A4B00DF2427 /* StackMobClientData.m */,
+				A9E0653814723A4B00DF2427 /* StackMobHerokuRequest.h */,
+				A9E0653914723A4B00DF2427 /* StackMobHerokuRequest.m */,
+				A9E0653A14723A4B00DF2427 /* StackMobPushRequest.h */,
+				A9E0653B14723A4B00DF2427 /* StackMobPushRequest.m */,
+				A9E0653C14723A4B00DF2427 /* StackMobQuery.h */,
+				A9E0653D14723A4B00DF2427 /* StackMobQuery.m */,
+				A9E0653E14723A4B00DF2427 /* StackMobRequest.h */,
+				A9E0653F14723A4B00DF2427 /* StackMobRequest.m */,
+				A9E0654014723A4B00DF2427 /* StackMobSession.h */,
+				A9E0654114723A4B00DF2427 /* StackMobSession.m */,
+				A9E0654214723A4B00DF2427 /* StackMobVersion.h */,
+				A9E0654314723A4B00DF2427 /* Utils */,
+			);
+			name = StackMob;
+			path = Frameworks/StackMob/StackMob;
+			sourceTree = "<group>";
+		};
+		A9E0650A14723A4B00DF2427 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				A9E0650B14723A4B00DF2427 /* JSONKit */,
+				A9E0650E14723A4B00DF2427 /* libraries */,
+				A9E0651014723A4B00DF2427 /* OAuthConsumer */,
+				A9E0652E14723A4B00DF2427 /* reachability */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		A9E0650B14723A4B00DF2427 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				A9E0650C14723A4B00DF2427 /* JSONKit.h */,
+				A9E0650D14723A4B00DF2427 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		A9E0650E14723A4B00DF2427 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A9E0650F14723A4B00DF2427 /* YAJLIOS.framework */,
+			);
+			path = libraries;
+			sourceTree = "<group>";
+		};
+		A9E0651014723A4B00DF2427 /* OAuthConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				A9E0651114723A4B00DF2427 /* Crypto */,
+				A9E0651414723A4B00DF2427 /* NSMutableURLRequest+Parameters.h */,
+				A9E0651514723A4B00DF2427 /* NSMutableURLRequest+Parameters.m */,
+				A9E0651614723A4B00DF2427 /* NSString+URLEncoding.h */,
+				A9E0651714723A4B00DF2427 /* NSString+URLEncoding.m */,
+				A9E0651814723A4B00DF2427 /* NSURL+Base.h */,
+				A9E0651914723A4B00DF2427 /* NSURL+Base.m */,
+				A9E0651A14723A4B00DF2427 /* OAAsynchronousDataFetcher.h */,
+				A9E0651B14723A4B00DF2427 /* OAAsynchronousDataFetcher.m */,
+				A9E0651C14723A4B00DF2427 /* OAConsumer.h */,
+				A9E0651D14723A4B00DF2427 /* OAConsumer.m */,
+				A9E0651E14723A4B00DF2427 /* OADataFetcher.h */,
+				A9E0651F14723A4B00DF2427 /* OADataFetcher.m */,
+				A9E0652014723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.h */,
+				A9E0652114723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.m */,
+				A9E0652214723A4B00DF2427 /* OAMutableURLRequest.h */,
+				A9E0652314723A4B00DF2427 /* OAMutableURLRequest.m */,
+				A9E0652414723A4B00DF2427 /* OAPlaintextSignatureProvider.h */,
+				A9E0652514723A4B00DF2427 /* OAPlaintextSignatureProvider.m */,
+				A9E0652614723A4B00DF2427 /* OARequestParameter.h */,
+				A9E0652714723A4B00DF2427 /* OARequestParameter.m */,
+				A9E0652814723A4B00DF2427 /* OAServiceTicket.h */,
+				A9E0652914723A4B00DF2427 /* OAServiceTicket.m */,
+				A9E0652A14723A4B00DF2427 /* OASignatureProviding.h */,
+				A9E0652B14723A4B00DF2427 /* OAToken.h */,
+				A9E0652C14723A4B00DF2427 /* OAToken.m */,
+				A9E0652D14723A4B00DF2427 /* OAuthConsumer.h */,
+			);
+			path = OAuthConsumer;
+			sourceTree = "<group>";
+		};
+		A9E0651114723A4B00DF2427 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				A9E0651214723A4B00DF2427 /* Base64Transcoder.c */,
+				A9E0651314723A4B00DF2427 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		A9E0652E14723A4B00DF2427 /* reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A9E0652F14723A4B00DF2427 /* Reachability.h */,
+				A9E0653014723A4B00DF2427 /* Reachability.m */,
+			);
+			path = reachability;
+			sourceTree = "<group>";
+		};
+		A9E0654314723A4B00DF2427 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A9E0654414723A4B00DF2427 /* NSData+Base64.h */,
+				A9E0654514723A4B00DF2427 /* NSData+Base64.m */,
+				A9E0654614723A4B00DF2427 /* NSData+JSON.h */,
+				A9E0654714723A4B00DF2427 /* NSData+JSON.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A9EA54BC147225D600E0EC71 = {
 			isa = PBXGroup;
 			children = (
 				A9EA54D3147225D700E0EC71 /* AtlantaIOSStackMob */,
 				A9EA54FB147225D700E0EC71 /* AtlantaIOSStackMobTests */,
+				A991A94D147245D600777841 /* GHUnitTests */,
 				A9EA54CA147225D600E0EC71 /* Frameworks */,
 				A9EA54C8147225D600E0EC71 /* Products */,
 			);
@@ -105,6 +451,7 @@
 			children = (
 				A9EA54C7147225D600E0EC71 /* AtlantaIOSStackMob.app */,
 				A9EA54F3147225D700E0EC71 /* AtlantaIOSStackMobTests.octest */,
+				A991A948147245D600777841 /* GHUnitTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,11 +459,15 @@
 		A9EA54CA147225D600E0EC71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A9EA54CB147225D600E0EC71 /* UIKit.framework */,
-				A9EA54CD147225D700E0EC71 /* Foundation.framework */,
-				A9EA54CF147225D700E0EC71 /* CoreGraphics.framework */,
+				A9E0650914723A4B00DF2427 /* StackMob */,
+				A991A95C1472473700777841 /* GHUnitIOS.framework */,
+				A9E065001472399000DF2427 /* CFNetwork.framework */,
 				A9EA54D1147225D700E0EC71 /* CoreData.framework */,
+				A9EA54CF147225D700E0EC71 /* CoreGraphics.framework */,
+				A9EA54CD147225D700E0EC71 /* Foundation.framework */,
 				A9EA54F4147225D700E0EC71 /* SenTestingKit.framework */,
+				A9E065031472399700DF2427 /* SystemConfiguration.framework */,
+				A9EA54CB147225D600E0EC71 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,6 +476,7 @@
 			isa = PBXGroup;
 			children = (
 				A9EA550C14722F2100E0EC71 /* CoreData */,
+				A991A93614723CFC00777841 /* WebServices */,
 				A9EA54DC147225D700E0EC71 /* LeVousAppDelegate.h */,
 				A9EA54DD147225D700E0EC71 /* LeVousAppDelegate.m */,
 				A9EA54DF147225D700E0EC71 /* MainStoryboard_iPhone.storyboard */,
@@ -133,6 +485,7 @@
 				A9EA54E9147225D700E0EC71 /* LeVousMasterViewController.m */,
 				A9EA54EB147225D700E0EC71 /* LeVousDetailViewController.h */,
 				A9EA54EC147225D700E0EC71 /* LeVousDetailViewController.m */,
+				A9E0656214723AD400DF2427 /* StackMobConfiguration.h */,
 				A9EA54D4147225D700E0EC71 /* Supporting Files */,
 			);
 			path = AtlantaIOSStackMob;
@@ -179,6 +532,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A991A947147245D600777841 /* GHUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A991A959147245D600777841 /* Build configuration list for PBXNativeTarget "GHUnitTests" */;
+			buildPhases = (
+				A991A944147245D600777841 /* Sources */,
+				A991A945147245D600777841 /* Frameworks */,
+				A991A946147245D600777841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHUnitTests;
+			productName = GHUnitTests;
+			productReference = A991A948147245D600777841 /* GHUnitTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A9EA54C6147225D600E0EC71 /* AtlantaIOSStackMob */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9EA5506147225D700E0EC71 /* Build configuration list for PBXNativeTarget "AtlantaIOSStackMob" */;
@@ -238,11 +608,20 @@
 			targets = (
 				A9EA54C6147225D600E0EC71 /* AtlantaIOSStackMob */,
 				A9EA54F2147225D700E0EC71 /* AtlantaIOSStackMobTests */,
+				A991A947147245D600777841 /* GHUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A991A946147245D600777841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A991A952147245D600777841 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9EA54C5147225D600E0EC71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +659,42 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A991A944147245D600777841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A991A96214724B1700777841 /* UserService.m in Sources */,
+				A991A96314724B1700777841 /* LevousStackMobService.m in Sources */,
+				A991A96414724B1700777841 /* JSONKit.m in Sources */,
+				A991A96514724B1700777841 /* NSMutableURLRequest+Parameters.m in Sources */,
+				A991A96614724B1700777841 /* NSString+URLEncoding.m in Sources */,
+				A991A96714724B1700777841 /* NSURL+Base.m in Sources */,
+				A991A96814724B1700777841 /* OAAsynchronousDataFetcher.m in Sources */,
+				A991A96914724B1700777841 /* OAConsumer.m in Sources */,
+				A991A96A14724B1700777841 /* OADataFetcher.m in Sources */,
+				A991A96B14724B1700777841 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				A991A96C14724B1700777841 /* OAMutableURLRequest.m in Sources */,
+				A991A96D14724B1700777841 /* OAPlaintextSignatureProvider.m in Sources */,
+				A991A96E14724B1700777841 /* OARequestParameter.m in Sources */,
+				A991A96F14724B1700777841 /* OAServiceTicket.m in Sources */,
+				A991A97014724B1700777841 /* OAToken.m in Sources */,
+				A991A97114724B1700777841 /* Reachability.m in Sources */,
+				A991A97214724B1700777841 /* StackMob.m in Sources */,
+				A991A97314724B1700777841 /* StackMobAdditions.m in Sources */,
+				A991A97414724B1700777841 /* StackMobClientData.m in Sources */,
+				A991A97514724B1700777841 /* StackMobHerokuRequest.m in Sources */,
+				A991A97614724B1700777841 /* StackMobPushRequest.m in Sources */,
+				A991A97714724B1700777841 /* StackMobQuery.m in Sources */,
+				A991A97814724B1700777841 /* StackMobRequest.m in Sources */,
+				A991A97914724B1700777841 /* StackMobSession.m in Sources */,
+				A991A97A14724B1700777841 /* NSData+Base64.m in Sources */,
+				A991A97B14724B1700777841 /* NSData+JSON.m in Sources */,
+				A991A954147245D600777841 /* main.m in Sources */,
+				A991A9611472488400777841 /* UserServiceTests.m in Sources */,
+				A991A98014724C1100777841 /* Base64Transcoder.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9EA54C3147225D600E0EC71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +704,33 @@
 				A9EA54EA147225D700E0EC71 /* LeVousMasterViewController.m in Sources */,
 				A9EA54ED147225D700E0EC71 /* LeVousDetailViewController.m in Sources */,
 				A9EA550F14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld in Sources */,
+				A9E0654814723A4B00DF2427 /* JSONKit.m in Sources */,
+				A9E0654A14723A4B00DF2427 /* Base64Transcoder.c in Sources */,
+				A9E0654B14723A4B00DF2427 /* NSMutableURLRequest+Parameters.m in Sources */,
+				A9E0654C14723A4B00DF2427 /* NSString+URLEncoding.m in Sources */,
+				A9E0654D14723A4B00DF2427 /* NSURL+Base.m in Sources */,
+				A9E0654E14723A4B00DF2427 /* OAAsynchronousDataFetcher.m in Sources */,
+				A9E0654F14723A4B00DF2427 /* OAConsumer.m in Sources */,
+				A9E0655014723A4B00DF2427 /* OADataFetcher.m in Sources */,
+				A9E0655114723A4B00DF2427 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				A9E0655214723A4B00DF2427 /* OAMutableURLRequest.m in Sources */,
+				A9E0655314723A4B00DF2427 /* OAPlaintextSignatureProvider.m in Sources */,
+				A9E0655414723A4B00DF2427 /* OARequestParameter.m in Sources */,
+				A9E0655514723A4B00DF2427 /* OAServiceTicket.m in Sources */,
+				A9E0655614723A4B00DF2427 /* OAToken.m in Sources */,
+				A9E0655714723A4B00DF2427 /* Reachability.m in Sources */,
+				A9E0655814723A4B00DF2427 /* StackMob.m in Sources */,
+				A9E0655914723A4B00DF2427 /* StackMobAdditions.m in Sources */,
+				A9E0655A14723A4B00DF2427 /* StackMobClientData.m in Sources */,
+				A9E0655B14723A4B00DF2427 /* StackMobHerokuRequest.m in Sources */,
+				A9E0655C14723A4B00DF2427 /* StackMobPushRequest.m in Sources */,
+				A9E0655D14723A4B00DF2427 /* StackMobQuery.m in Sources */,
+				A9E0655E14723A4B00DF2427 /* StackMobRequest.m in Sources */,
+				A9E0655F14723A4B00DF2427 /* StackMobSession.m in Sources */,
+				A9E0656014723A4B00DF2427 /* NSData+Base64.m in Sources */,
+				A9E0656114723A4B00DF2427 /* NSData+JSON.m in Sources */,
+				A991A93E14723D4F00777841 /* UserService.m in Sources */,
+				A991A94214723EB100777841 /* LevousStackMobService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +738,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E0656F14723C4100DF2427 /* NSMutableURLRequest+Parameters.m in Sources */,
+				A9E0657014723C4100DF2427 /* NSString+URLEncoding.m in Sources */,
+				A9E0657114723C4100DF2427 /* NSURL+Base.m in Sources */,
+				A9E0657214723C4100DF2427 /* OAAsynchronousDataFetcher.m in Sources */,
+				A9E0657314723C4100DF2427 /* OAConsumer.m in Sources */,
+				A9E0657414723C4100DF2427 /* OADataFetcher.m in Sources */,
+				A9E0657514723C4100DF2427 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				A9E0657614723C4100DF2427 /* OAMutableURLRequest.m in Sources */,
+				A9E0657714723C4100DF2427 /* OAPlaintextSignatureProvider.m in Sources */,
+				A9E0657814723C4100DF2427 /* OARequestParameter.m in Sources */,
+				A9E0657914723C4100DF2427 /* OAServiceTicket.m in Sources */,
+				A9E0657A14723C4100DF2427 /* OAToken.m in Sources */,
+				A9E0657B14723C4100DF2427 /* Reachability.m in Sources */,
 				A9EA5503147225D700E0EC71 /* AtlantaIOSStackMobTests.m in Sources */,
+				A9E0656314723C1700DF2427 /* JSONKit.m in Sources */,
+				A9E0656414723C1700DF2427 /* StackMob.m in Sources */,
+				A9E0656514723C1700DF2427 /* StackMobAdditions.m in Sources */,
+				A9E0656614723C1700DF2427 /* StackMobClientData.m in Sources */,
+				A9E0656714723C1700DF2427 /* StackMobHerokuRequest.m in Sources */,
+				A9E0656814723C1700DF2427 /* StackMobPushRequest.m in Sources */,
+				A9E0656914723C1700DF2427 /* StackMobQuery.m in Sources */,
+				A9E0656A14723C1700DF2427 /* StackMobRequest.m in Sources */,
+				A9E0656B14723C1700DF2427 /* StackMobSession.m in Sources */,
+				A9E0656C14723C1700DF2427 /* NSData+Base64.m in Sources */,
+				A9E0656D14723C1700DF2427 /* NSData+JSON.m in Sources */,
+				A991A93F14723D4F00777841 /* UserService.m in Sources */,
+				A991A94314723EB100777841 /* LevousStackMobService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +779,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A991A950147245D600777841 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A991A951147245D600777841 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		A9EA54D6147225D700E0EC71 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -346,6 +822,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A991A95A147245D600777841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTests/GHUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTests/GHUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A991A95B147245D600777841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTests/GHUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTests/GHUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		A9EA5504147225D700E0EC71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -366,6 +876,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,6 +899,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -394,6 +912,10 @@
 		A9EA5507147225D700E0EC71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/StackMob/StackMob/External/libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AtlantaIOSStackMob/AtlantaIOSStackMob-Prefix.pch";
 				INFOPLIST_FILE = "AtlantaIOSStackMob/AtlantaIOSStackMob-Info.plist";
@@ -405,6 +927,10 @@
 		A9EA5508147225D700E0EC71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/StackMob/StackMob/External/libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AtlantaIOSStackMob/AtlantaIOSStackMob-Prefix.pch";
 				INFOPLIST_FILE = "AtlantaIOSStackMob/AtlantaIOSStackMob-Info.plist";
@@ -420,6 +946,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Frameworks/StackMob/StackMob/External/libraries\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AtlantaIOSStackMob/AtlantaIOSStackMob-Prefix.pch";
@@ -437,6 +964,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Frameworks/StackMob/StackMob/External/libraries\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AtlantaIOSStackMob/AtlantaIOSStackMob-Prefix.pch";
@@ -450,6 +978,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A991A959147245D600777841 /* Build configuration list for PBXNativeTarget "GHUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A991A95A147245D600777841 /* Debug */,
+				A991A95B147245D600777841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A9EA54C1147225D600E0EC71 /* Build configuration list for PBXProject "AtlantaIOSStackMob" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -466,6 +1002,7 @@
 				A9EA5508147225D700E0EC71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9EA5509147225D700E0EC71 /* Build configuration list for PBXNativeTarget "AtlantaIOSStackMobTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +1011,7 @@
 				A9EA550B147225D700E0EC71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
