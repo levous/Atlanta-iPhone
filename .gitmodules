@@ -1,0 +1,3 @@
+[submodule "presentations/rustyzarse/StackMob/AtlantaIOSStackMob/Frameworks/StackMob_iOS"]
+	path = presentations/rustyzarse/StackMob/AtlantaIOSStackMob/Frameworks/StackMob_iOS
+	url = git://github.com/stackmob/StackMob_iOS.git

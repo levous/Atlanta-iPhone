@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9EA54CC147225D700E0EC71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CB147225D600E0EC71 /* UIKit.framework */; };
+		A9EA54CE147225D700E0EC71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CD147225D700E0EC71 /* Foundation.framework */; };
+		A9EA54D0147225D700E0EC71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CF147225D700E0EC71 /* CoreGraphics.framework */; };
+		A9EA54D2147225D700E0EC71 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54D1147225D700E0EC71 /* CoreData.framework */; };
+		A9EA54D8147225D700E0EC71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9EA54D6147225D700E0EC71 /* InfoPlist.strings */; };
+		A9EA54DA147225D700E0EC71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA54D9147225D700E0EC71 /* main.m */; };
+		A9EA54DE147225D700E0EC71 /* LeVousAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA54DD147225D700E0EC71 /* LeVousAppDelegate.m */; };
+		A9EA54E1147225D700E0EC71 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EA54DF147225D700E0EC71 /* MainStoryboard_iPhone.storyboard */; };
+		A9EA54E4147225D700E0EC71 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EA54E2147225D700E0EC71 /* MainStoryboard_iPad.storyboard */; };
+		A9EA54EA147225D700E0EC71 /* LeVousMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA54E9147225D700E0EC71 /* LeVousMasterViewController.m */; };
+		A9EA54ED147225D700E0EC71 /* LeVousDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA54EC147225D700E0EC71 /* LeVousDetailViewController.m */; };
+		A9EA54F5147225D700E0EC71 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54F4147225D700E0EC71 /* SenTestingKit.framework */; };
+		A9EA54F6147225D700E0EC71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CB147225D600E0EC71 /* UIKit.framework */; };
+		A9EA54F7147225D700E0EC71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54CD147225D700E0EC71 /* Foundation.framework */; };
+		A9EA54F8147225D700E0EC71 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EA54D1147225D700E0EC71 /* CoreData.framework */; };
+		A9EA5500147225D700E0EC71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9EA54FE147225D700E0EC71 /* InfoPlist.strings */; };
+		A9EA5503147225D700E0EC71 /* AtlantaIOSStackMobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA5502147225D700E0EC71 /* AtlantaIOSStackMobTests.m */; };
+		A9EA550F14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9EA550D14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9EA54F9147225D700E0EC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9EA54BE147225D600E0EC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9EA54C6147225D600E0EC71;
+			remoteInfo = AtlantaIOSStackMob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9EA54C7147225D600E0EC71 /* AtlantaIOSStackMob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlantaIOSStackMob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EA54CB147225D600E0EC71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9EA54CD147225D700E0EC71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9EA54CF147225D700E0EC71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9EA54D1147225D700E0EC71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A9EA54D5147225D700E0EC71 /* AtlantaIOSStackMob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtlantaIOSStackMob-Info.plist"; sourceTree = "<group>"; };
+		A9EA54D7147225D700E0EC71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9EA54D9147225D700E0EC71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9EA54DB147225D700E0EC71 /* AtlantaIOSStackMob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtlantaIOSStackMob-Prefix.pch"; sourceTree = "<group>"; };
+		A9EA54DC147225D700E0EC71 /* LeVousAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeVousAppDelegate.h; sourceTree = "<group>"; };
+		A9EA54DD147225D700E0EC71 /* LeVousAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeVousAppDelegate.m; sourceTree = "<group>"; };
+		A9EA54E0147225D700E0EC71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A9EA54E3147225D700E0EC71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A9EA54E8147225D700E0EC71 /* LeVousMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeVousMasterViewController.h; sourceTree = "<group>"; };
+		A9EA54E9147225D700E0EC71 /* LeVousMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeVousMasterViewController.m; sourceTree = "<group>"; };
+		A9EA54EB147225D700E0EC71 /* LeVousDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeVousDetailViewController.h; sourceTree = "<group>"; };
+		A9EA54EC147225D700E0EC71 /* LeVousDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeVousDetailViewController.m; sourceTree = "<group>"; };
+		A9EA54F3147225D700E0EC71 /* AtlantaIOSStackMobTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlantaIOSStackMobTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EA54F4147225D700E0EC71 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9EA54FD147225D700E0EC71 /* AtlantaIOSStackMobTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtlantaIOSStackMobTests-Info.plist"; sourceTree = "<group>"; };
+		A9EA54FF147225D700E0EC71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9EA5501147225D700E0EC71 /* AtlantaIOSStackMobTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtlantaIOSStackMobTests.h; sourceTree = "<group>"; };
+		A9EA5502147225D700E0EC71 /* AtlantaIOSStackMobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtlantaIOSStackMobTests.m; sourceTree = "<group>"; };
+		A9EA550E14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AtlantaIOSStackMob.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9EA54C4147225D600E0EC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA54CC147225D700E0EC71 /* UIKit.framework in Frameworks */,
+				A9EA54CE147225D700E0EC71 /* Foundation.framework in Frameworks */,
+				A9EA54D0147225D700E0EC71 /* CoreGraphics.framework in Frameworks */,
+				A9EA54D2147225D700E0EC71 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA54EF147225D700E0EC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA54F5147225D700E0EC71 /* SenTestingKit.framework in Frameworks */,
+				A9EA54F6147225D700E0EC71 /* UIKit.framework in Frameworks */,
+				A9EA54F7147225D700E0EC71 /* Foundation.framework in Frameworks */,
+				A9EA54F8147225D700E0EC71 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9EA54BC147225D600E0EC71 = {
+			isa = PBXGroup;
+			children = (
+				A9EA54D3147225D700E0EC71 /* AtlantaIOSStackMob */,
+				A9EA54FB147225D700E0EC71 /* AtlantaIOSStackMobTests */,
+				A9EA54CA147225D600E0EC71 /* Frameworks */,
+				A9EA54C8147225D600E0EC71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9EA54C8147225D600E0EC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA54C7147225D600E0EC71 /* AtlantaIOSStackMob.app */,
+				A9EA54F3147225D700E0EC71 /* AtlantaIOSStackMobTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9EA54CA147225D600E0EC71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA54CB147225D600E0EC71 /* UIKit.framework */,
+				A9EA54CD147225D700E0EC71 /* Foundation.framework */,
+				A9EA54CF147225D700E0EC71 /* CoreGraphics.framework */,
+				A9EA54D1147225D700E0EC71 /* CoreData.framework */,
+				A9EA54F4147225D700E0EC71 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9EA54D3147225D700E0EC71 /* AtlantaIOSStackMob */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA550C14722F2100E0EC71 /* CoreData */,
+				A9EA54DC147225D700E0EC71 /* LeVousAppDelegate.h */,
+				A9EA54DD147225D700E0EC71 /* LeVousAppDelegate.m */,
+				A9EA54DF147225D700E0EC71 /* MainStoryboard_iPhone.storyboard */,
+				A9EA54E2147225D700E0EC71 /* MainStoryboard_iPad.storyboard */,
+				A9EA54E8147225D700E0EC71 /* LeVousMasterViewController.h */,
+				A9EA54E9147225D700E0EC71 /* LeVousMasterViewController.m */,
+				A9EA54EB147225D700E0EC71 /* LeVousDetailViewController.h */,
+				A9EA54EC147225D700E0EC71 /* LeVousDetailViewController.m */,
+				A9EA54D4147225D700E0EC71 /* Supporting Files */,
+			);
+			path = AtlantaIOSStackMob;
+			sourceTree = "<group>";
+		};
+		A9EA54D4147225D700E0EC71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA54D5147225D700E0EC71 /* AtlantaIOSStackMob-Info.plist */,
+				A9EA54D6147225D700E0EC71 /* InfoPlist.strings */,
+				A9EA54D9147225D700E0EC71 /* main.m */,
+				A9EA54DB147225D700E0EC71 /* AtlantaIOSStackMob-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9EA54FB147225D700E0EC71 /* AtlantaIOSStackMobTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA5501147225D700E0EC71 /* AtlantaIOSStackMobTests.h */,
+				A9EA5502147225D700E0EC71 /* AtlantaIOSStackMobTests.m */,
+				A9EA54FC147225D700E0EC71 /* Supporting Files */,
+			);
+			path = AtlantaIOSStackMobTests;
+			sourceTree = "<group>";
+		};
+		A9EA54FC147225D700E0EC71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA54FD147225D700E0EC71 /* AtlantaIOSStackMobTests-Info.plist */,
+				A9EA54FE147225D700E0EC71 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9EA550C14722F2100E0EC71 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA550D14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9EA54C6147225D600E0EC71 /* AtlantaIOSStackMob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EA5506147225D700E0EC71 /* Build configuration list for PBXNativeTarget "AtlantaIOSStackMob" */;
+			buildPhases = (
+				A9EA54C3147225D600E0EC71 /* Sources */,
+				A9EA54C4147225D600E0EC71 /* Frameworks */,
+				A9EA54C5147225D600E0EC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtlantaIOSStackMob;
+			productName = AtlantaIOSStackMob;
+			productReference = A9EA54C7147225D600E0EC71 /* AtlantaIOSStackMob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9EA54F2147225D700E0EC71 /* AtlantaIOSStackMobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EA5509147225D700E0EC71 /* Build configuration list for PBXNativeTarget "AtlantaIOSStackMobTests" */;
+			buildPhases = (
+				A9EA54EE147225D700E0EC71 /* Sources */,
+				A9EA54EF147225D700E0EC71 /* Frameworks */,
+				A9EA54F0147225D700E0EC71 /* Resources */,
+				A9EA54F1147225D700E0EC71 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9EA54FA147225D700E0EC71 /* PBXTargetDependency */,
+			);
+			name = AtlantaIOSStackMobTests;
+			productName = AtlantaIOSStackMobTests;
+			productReference = A9EA54F3147225D700E0EC71 /* AtlantaIOSStackMobTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9EA54BE147225D600E0EC71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "LeVous, LLC";
+			};
+			buildConfigurationList = A9EA54C1147225D600E0EC71 /* Build configuration list for PBXProject "AtlantaIOSStackMob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9EA54BC147225D600E0EC71;
+			productRefGroup = A9EA54C8147225D600E0EC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9EA54C6147225D600E0EC71 /* AtlantaIOSStackMob */,
+				A9EA54F2147225D700E0EC71 /* AtlantaIOSStackMobTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9EA54C5147225D600E0EC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA54D8147225D700E0EC71 /* InfoPlist.strings in Resources */,
+				A9EA54E1147225D700E0EC71 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A9EA54E4147225D700E0EC71 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA54F0147225D700E0EC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA5500147225D700E0EC71 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9EA54F1147225D700E0EC71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9EA54C3147225D600E0EC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA54DA147225D700E0EC71 /* main.m in Sources */,
+				A9EA54DE147225D700E0EC71 /* LeVousAppDelegate.m in Sources */,
+				A9EA54EA147225D700E0EC71 /* LeVousMasterViewController.m in Sources */,
+				A9EA54ED147225D700E0EC71 /* LeVousDetailViewController.m in Sources */,
+				A9EA550F14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA54EE147225D700E0EC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA5503147225D700E0EC71 /* AtlantaIOSStackMobTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9EA54FA147225D700E0EC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9EA54C6147225D600E0EC71 /* AtlantaIOSStackMob */;
+			targetProxy = A9EA54F9147225D700E0EC71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9EA54D6147225D700E0EC71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA54D7147225D700E0EC71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9EA54DF147225D700E0EC71 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA54E0147225D700E0EC71 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A9EA54E2147225D700E0EC71 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA54E3147225D700E0EC71 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A9EA54FE147225D700E0EC71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA54FF147225D700E0EC71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9EA5504147225D700E0EC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9EA5505147225D700E0EC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9EA5507147225D700E0EC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlantaIOSStackMob/AtlantaIOSStackMob-Prefix.pch";
+				INFOPLIST_FILE = "AtlantaIOSStackMob/AtlantaIOSStackMob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9EA5508147225D700E0EC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlantaIOSStackMob/AtlantaIOSStackMob-Prefix.pch";
+				INFOPLIST_FILE = "AtlantaIOSStackMob/AtlantaIOSStackMob-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9EA550A147225D700E0EC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AtlantaIOSStackMob.app/AtlantaIOSStackMob";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlantaIOSStackMob/AtlantaIOSStackMob-Prefix.pch";
+				INFOPLIST_FILE = "AtlantaIOSStackMobTests/AtlantaIOSStackMobTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A9EA550B147225D700E0EC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AtlantaIOSStackMob.app/AtlantaIOSStackMob";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlantaIOSStackMob/AtlantaIOSStackMob-Prefix.pch";
+				INFOPLIST_FILE = "AtlantaIOSStackMobTests/AtlantaIOSStackMobTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9EA54C1147225D600E0EC71 /* Build configuration list for PBXProject "AtlantaIOSStackMob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA5504147225D700E0EC71 /* Debug */,
+				A9EA5505147225D700E0EC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9EA5506147225D700E0EC71 /* Build configuration list for PBXNativeTarget "AtlantaIOSStackMob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA5507147225D700E0EC71 /* Debug */,
+				A9EA5508147225D700E0EC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9EA5509147225D700E0EC71 /* Build configuration list for PBXNativeTarget "AtlantaIOSStackMobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA550A147225D700E0EC71 /* Debug */,
+				A9EA550B147225D700E0EC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9EA550D14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9EA550E14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodel */,
+			);
+			currentVersion = A9EA550E14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodel */;
+			path = AtlantaIOSStackMob.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9EA54BE147225D600E0EC71 /* Project object */;
+}
