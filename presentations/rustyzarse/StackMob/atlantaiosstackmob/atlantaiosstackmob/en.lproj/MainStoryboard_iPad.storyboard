@@ -152,7 +152,7 @@
         <scene sceneID="bzp-qt-Sud">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9wH-J8-oqT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="WIO-IF-oJs" sceneMemberID="viewController">
+                <viewController id="WIO-IF-oJs" customClass="AddUserViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jfr-tI-33v">
                         <rect key="frame" x="0.0" y="0.0" width="500" height="200"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -186,14 +186,22 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="savePressed:" destination="WIO-IF-oJs" eventType="touchUpInside" id="0wS-p2-g1s"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <connections>
+                        <outlet property="password" destination="pRZ-pd-NTS" id="SwB-4Z-HLJ"/>
+                        <outlet property="twitterHandle" destination="prz-5C-zCv" id="yyO-Sh-LiW"/>
+                        <outlet property="username" destination="LIn-hE-fli" id="czI-h1-qeh"/>
+                    </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1364" y="-595"/>
+            <point key="canvasLocation" x="1316" y="-567"/>
         </scene>
         <scene sceneID="50">
             <objects>

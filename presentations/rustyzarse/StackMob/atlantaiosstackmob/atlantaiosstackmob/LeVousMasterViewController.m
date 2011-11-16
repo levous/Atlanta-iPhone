@@ -52,7 +52,7 @@
     self.detailViewController = (LeVousDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     // Set up the edit and add buttons.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
+//
 //    UIBarButtonItem *addButton = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject)] autorelease];
 //    self.navigationItem.rightBarButtonItem = addButton;
 }
@@ -276,7 +276,7 @@
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
 {
     NSManagedObject *managedObject = [self.fetchedResultsController objectAtIndexPath:indexPath];
-    cell.textLabel.text = [[managedObject valueForKey:@"userName"] description];
+    cell.textLabel.text = [[managedObject valueForKey:@"username"] description];
 }
 
 - (void)insertNewObject
@@ -288,7 +288,7 @@
     
     // If appropriate, configure the new managed object.
     // Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
-    [newManagedObject setValue:[NSString stringWithFormat:@"%@", [NSDate date]] forKey:@"userName"];
+    [newManagedObject setValue:[NSString stringWithFormat:@"%@", [NSDate date]] forKey:@"username"];
     
     // Save the context.
     NSError *error = nil;

@@ -6,7 +6,6 @@
 //  Copyright (c) 2011 LeVous, LLC. All rights reserved.
 //
 
-#import <GHUnitIOS/GHUnit.h>
 
 @interface UserServiceTests : GHAsyncTestCase{
     NSArray *userResults;

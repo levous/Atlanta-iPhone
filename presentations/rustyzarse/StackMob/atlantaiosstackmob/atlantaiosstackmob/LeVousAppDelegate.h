@@ -7,16 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CoreDataManager;
 
 @interface LeVousAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (retain, nonatomic) CoreDataManager *appCoreDataManager;
 
 - (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
 
 @end

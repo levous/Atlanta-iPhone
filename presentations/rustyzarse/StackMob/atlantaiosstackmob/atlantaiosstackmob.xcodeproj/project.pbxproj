@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A96A05E214733EB000273427 /* AddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05E114733EB000273427 /* AddUserViewController.m */; };
+		A96A05E314733EB000273427 /* AddUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05E114733EB000273427 /* AddUserViewController.m */; };
+		A96A05E7147446C700273427 /* SynchronizationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05E6147446C700273427 /* SynchronizationCoordinator.m */; };
+		A96A05E8147446C700273427 /* SynchronizationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05E6147446C700273427 /* SynchronizationCoordinator.m */; };
+		A96A05E9147446C700273427 /* SynchronizationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05E6147446C700273427 /* SynchronizationCoordinator.m */; };
+		A96A05EE147446EB00273427 /* SynchronizationCoordinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05EB147446EB00273427 /* SynchronizationCoordinatorTests.m */; };
+		A96A05F11474650800273427 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05F01474650800273427 /* CoreDataManager.m */; };
+		A96A05F21474650800273427 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05F01474650800273427 /* CoreDataManager.m */; };
+		A96A05F31474650800273427 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05F01474650800273427 /* CoreDataManager.m */; };
+		A96A05F6147465FE00273427 /* GHUnitAtlantaIOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A05F5147465FE00273427 /* GHUnitAtlantaIOSAppDelegate.m */; };
+		A96A05F7147469FA00273427 /* AtlantaIOSStackMob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9EA550D14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld */; };
+		A96A05F8147469FA00273427 /* AtlantaIOSStackMob.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9EA550D14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld */; };
 		A991A93E14723D4F00777841 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A93D14723D4F00777841 /* UserService.m */; };
 		A991A93F14723D4F00777841 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A93D14723D4F00777841 /* UserService.m */; };
 		A991A94214723EB100777841 /* LevousStackMobService.m in Sources */ = {isa = PBXBuildFile; fileRef = A991A94114723EB100777841 /* LevousStackMobService.m */; };
@@ -135,6 +147,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A96A05E014733EB000273427 /* AddUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddUserViewController.h; sourceTree = "<group>"; };
+		A96A05E114733EB000273427 /* AddUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddUserViewController.m; sourceTree = "<group>"; };
+		A96A05E5147446C700273427 /* SynchronizationCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizationCoordinator.h; sourceTree = "<group>"; };
+		A96A05E6147446C700273427 /* SynchronizationCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronizationCoordinator.m; sourceTree = "<group>"; };
+		A96A05EA147446EB00273427 /* SynchronizationCoordinatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizationCoordinatorTests.h; sourceTree = "<group>"; };
+		A96A05EB147446EB00273427 /* SynchronizationCoordinatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronizationCoordinatorTests.m; sourceTree = "<group>"; };
+		A96A05EF1474650800273427 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		A96A05F01474650800273427 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		A96A05F4147465FE00273427 /* GHUnitAtlantaIOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUnitAtlantaIOSAppDelegate.h; sourceTree = "<group>"; };
+		A96A05F5147465FE00273427 /* GHUnitAtlantaIOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitAtlantaIOSAppDelegate.m; sourceTree = "<group>"; };
 		A991A93C14723D4F00777841 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
 		A991A93D14723D4F00777841 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
 		A991A94014723EB100777841 /* LevousStackMobService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevousStackMobService.h; sourceTree = "<group>"; };
@@ -284,6 +306,8 @@
 				A991A93D14723D4F00777841 /* UserService.m */,
 				A991A94014723EB100777841 /* LevousStackMobService.h */,
 				A991A94114723EB100777841 /* LevousStackMobService.m */,
+				A96A05E5147446C700273427 /* SynchronizationCoordinator.h */,
+				A96A05E6147446C700273427 /* SynchronizationCoordinator.m */,
 			);
 			path = WebServices;
 			sourceTree = "<group>";
@@ -293,6 +317,8 @@
 			children = (
 				A991A95E1472488400777841 /* WebServices */,
 				A991A94E147245D600777841 /* Supporting Files */,
+				A96A05F4147465FE00273427 /* GHUnitAtlantaIOSAppDelegate.h */,
+				A96A05F5147465FE00273427 /* GHUnitAtlantaIOSAppDelegate.m */,
 			);
 			path = GHUnitTests;
 			sourceTree = "<group>";
@@ -313,6 +339,8 @@
 			children = (
 				A991A95F1472488400777841 /* UserServiceTests.h */,
 				A991A9601472488400777841 /* UserServiceTests.m */,
+				A96A05EA147446EB00273427 /* SynchronizationCoordinatorTests.h */,
+				A96A05EB147446EB00273427 /* SynchronizationCoordinatorTests.m */,
 			);
 			path = WebServices;
 			sourceTree = "<group>";
@@ -477,6 +505,8 @@
 			children = (
 				A9EA550C14722F2100E0EC71 /* CoreData */,
 				A991A93614723CFC00777841 /* WebServices */,
+				A96A05E014733EB000273427 /* AddUserViewController.h */,
+				A96A05E114733EB000273427 /* AddUserViewController.m */,
 				A9EA54DC147225D700E0EC71 /* LeVousAppDelegate.h */,
 				A9EA54DD147225D700E0EC71 /* LeVousAppDelegate.m */,
 				A9EA54DF147225D700E0EC71 /* MainStoryboard_iPhone.storyboard */,
@@ -525,6 +555,8 @@
 			isa = PBXGroup;
 			children = (
 				A9EA550D14722F5900E0EC71 /* AtlantaIOSStackMob.xcdatamodeld */,
+				A96A05EF1474650800273427 /* CoreDataManager.h */,
+				A96A05F01474650800273427 /* CoreDataManager.m */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -692,6 +724,12 @@
 				A991A954147245D600777841 /* main.m in Sources */,
 				A991A9611472488400777841 /* UserServiceTests.m in Sources */,
 				A991A98014724C1100777841 /* Base64Transcoder.c in Sources */,
+				A96A05E314733EB000273427 /* AddUserViewController.m in Sources */,
+				A96A05E9147446C700273427 /* SynchronizationCoordinator.m in Sources */,
+				A96A05EE147446EB00273427 /* SynchronizationCoordinatorTests.m in Sources */,
+				A96A05F31474650800273427 /* CoreDataManager.m in Sources */,
+				A96A05F6147465FE00273427 /* GHUnitAtlantaIOSAppDelegate.m in Sources */,
+				A96A05F7147469FA00273427 /* AtlantaIOSStackMob.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,6 +769,9 @@
 				A9E0656114723A4B00DF2427 /* NSData+JSON.m in Sources */,
 				A991A93E14723D4F00777841 /* UserService.m in Sources */,
 				A991A94214723EB100777841 /* LevousStackMobService.m in Sources */,
+				A96A05E214733EB000273427 /* AddUserViewController.m in Sources */,
+				A96A05E7147446C700273427 /* SynchronizationCoordinator.m in Sources */,
+				A96A05F11474650800273427 /* CoreDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,6 +806,9 @@
 				A9E0656D14723C1700DF2427 /* NSData+JSON.m in Sources */,
 				A991A93F14723D4F00777841 /* UserService.m in Sources */,
 				A991A94314723EB100777841 /* LevousStackMobService.m in Sources */,
+				A96A05E8147446C700273427 /* SynchronizationCoordinator.m in Sources */,
+				A96A05F21474650800273427 /* CoreDataManager.m in Sources */,
+				A96A05F8147469FA00273427 /* AtlantaIOSStackMob.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -985,6 +1029,7 @@
 				A991A95B147245D600777841 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9EA54C1147225D600E0EC71 /* Build configuration list for PBXProject "AtlantaIOSStackMob" */ = {
 			isa = XCConfigurationList;

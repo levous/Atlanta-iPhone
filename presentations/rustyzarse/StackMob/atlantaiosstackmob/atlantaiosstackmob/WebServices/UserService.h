@@ -16,5 +16,6 @@
 - (id)initWithDelegate:(id)aDelegate;
 
 - (void)getAllUsers;
+- (void)postNewUsers:(NSArray *)usersArray;
 
 @end
